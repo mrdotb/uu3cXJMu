@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Crypto API example</title>
+  </head>
+
+  <body>
+    <section class="encrypt-decrypt aes-cbc-file">
+      <h2 class="encrypt-decrypt-heading">AES-CBC FILE</h2>
+      <label for="aes-cbc-message">Select file to encrypt:</label>
+      <input type="file" id="aes-cbc-file">
+      <br>
+      <input type="text" id="aes-cbc-key" name="aes-cbc-key" placeholder="key">
+      <br>
+      <input type="text" id="aes-cbc-iv" name="aes-cbc-iv" placeholder="iv">
+      <br>
+      <input class="decrypt-button" type="button" value="Decrypt">
+    </section>
+  </body>
+  <script src="aes-cbc-file.js"></script>
+</html>
